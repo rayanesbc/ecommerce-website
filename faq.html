@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech2etc Ecommerce Tutorial</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      document.documentElement.className += " js";
+    </script>
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="img/logo.png" class="logo" alt="Logotipo" /></a>
+
+      <div>
+        <nav>
+          <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="faq.html">Faq</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a id="lg-bag" href="cart.html"
+                ><i class="fa-solid fa-bag-shopping"></i
+              ></a>
+            </li>
+            <a href="#" class="close"><i class="fa-solid fa-xmark"></i></a>
+          </ul>
+        </nav>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="faq-header"></section>
+
+    <section id="faq">
+      <div id="questions">
+        <dl class="js-accordion">
+          <dt>How should I prepare my packaging for return?</dt>
+          <dd>
+            If you no longer have the original packaging, you can return your
+            order in any other packaging, as long as it is well sealed to
+            prevent the items from being lost. It is not necessary to write any
+            shipping address on the package. Don't forget to include your
+            purchase receipt.
+          </dd>
+
+          <dt>What are the conditions for making a return?</dt>
+          <dd>
+            If the purchase made did not meet your expectations, we offer the
+            possibility of making a return. Items must be in their original
+            condition and have all tags. It is necessary to make the return in
+            the same market/region in which you made the purchase.
+          </dd>
+
+          <dt>What are the deadlines for exchanges and returns?</dt>
+          <dd>
+            Online purchase: you have 30 days from the date your order was
+            shipped to receive a refund in a VALE EXCHANGE. If you wish to
+            receive it in the original payment method, you have 7 days from
+            receipt of the order to make a return. Purchase in a physical store:
+            you have 30 days from the date of purchase.
+          </dd>
+
+          <dt>Can I make a return in a physical store?</dt>
+          <dd>
+            Yes, you can return your items free of charge to any of our Cara
+            stores. The option to return in store is available for both online
+            and in-store purchases. You must only present the items for return
+            and the purchase receipt.
+          </dd>
+
+          <dt>
+            Can I return items from different orders in a single shipment?
+          </dt>
+          <dd>
+            Please note that it is not possible to return items from different
+            orders together. Therefore, you will have to request a return for
+            each order and send it separately.
+          </dd>
+        </dl>
+      </div>
+      <div id="links">
+        <h3>It Might Interest...</h3>
+        <ul>
+          <li><a href="#">Refund of a purchase paid by gift card</a></li>
+          <li><a href="#">Return and refund with a gift ticket</a></li>
+          <li><a href="#">Special return conditions</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers</span>.
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your e-mail address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo.png" alt="" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> 562 Wellington Road. Street 42. San
+          Francisco
+        </p>
+        <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00. Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Geteways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024, Tech2 etc - HTML CSS Ecommerce Template</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
