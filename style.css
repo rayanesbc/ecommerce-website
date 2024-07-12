@@ -176,7 +176,8 @@ body {
 #feature {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
   flex-wrap: wrap;
 }
 
@@ -1122,12 +1123,8 @@ footer .copyright {
     background-position: top 30% right 30%;
   }
 
-  #feature {
-    justify-content: center;
-  }
-
   #feature .fe-box {
-    margin: 15px 15px;
+    width: 155px;
   }
 
   #product1 .pro-container {
@@ -1216,10 +1213,6 @@ footer .copyright {
   #hero p {
     font-size: 15px;
     margin: 10px 0 20px 0;
-  }
-
-  #feature {
-    justify-content: space-between;
   }
 
   #feature .fe-box {
