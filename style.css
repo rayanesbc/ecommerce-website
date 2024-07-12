@@ -893,7 +893,8 @@ footer .copyright {
 }
 
 #form-details form {
-  width: 65%;
+  width: 60%;
+  margin-right: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1172,6 +1173,7 @@ footer .copyright {
 
   #form-details form {
     width: 50%;
+    margin-right: 10px;
   }
 }
 
