@@ -162,7 +162,7 @@ body {
 }
 
 #hero button {
-  background-image: url(/img/button.png);
+  background-image: url(../ecommerce-website/img/button.png);
   background-color: transparent;
   border: none;
   color: #088178;
